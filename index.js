@@ -1,4 +1,8 @@
 function createBuff() {
     const data = {};
-    return {};
+    return {
+        get: function(key) {
+            return data[key];
+        }
+    };
 }
