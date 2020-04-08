@@ -6,6 +6,3 @@ function print() {
 }
 
 let arr = [1, 2, 3];
-
-// 暂存区
-const obj = { name: '浅色星河' };
